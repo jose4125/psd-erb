@@ -1,0 +1,104 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	font-size: 16px;
+}
+#general{
+	width: 965px;
+	margin: 0 auto;
+}
+#general h1{
+	text-transform: uppercase;
+	width: 321px;
+	height: 76px;
+	font-size: 5.4em;
+	margin: 0;
+	
+}
+header{
+	display: inline-block;
+	vertical-align: top;
+	line-height: 76px;
+}
+nav{
+	width: 466px;
+	display: inline-block;
+	vertical-align: top;
+	height: 103px;
+	margin: 0 0 26px 163px;
+}
+#menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	
+}
+#menu li{
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+#menu li a{
+	height: 100%;
+	padding: 0 5px;
+	display: block;
+	line-height: 172px;
+	color: #000;
+	text-decoration: none;
+}
+#menu li a:hover{
+	background: #a3ca52;
+	color: #fff;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+#banner{
+	height: 475px;
+	background: url(/assets/fondo-verde.jpg);
+	margin: 0 0 51px 0;
+}
+#banner figure{
+	width: 934px;
+	margin: auto;
+	padding: 10px;
+
+}
+#banner figure img{
+	margin: 6px 0 0 0;
+}
+#platos ul{
+	list-style: none;
+	padding: 0;
+	marrgin: 0;
+}
+#platos ul li{
+	display: inline-block;
+	vertical-align: top;
+}
+#platos h3{
+	height: 21px;
+	width: 240px;
+	text-transform: uppercase;
+	margin: 0 0 51px 0;
+}
+#platos li {
+	width: 182px;
+	background: green;
+	height: 190px;
+}
+#platos li p{
+	text-transform: Capitalize;
+	width: 161px;
+	height: 12px;
+	font-size: 12px;
+	margin: 0 0 20px 0;
+}
+#platos li figure{
+	background: #e0dedb;
+	border: 1px solid #cfccc8;
+	text-align: center;
+	padding: 4px 0; 
+}
